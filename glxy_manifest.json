@@ -1,0 +1,35 @@
+[
+  {
+    "username": "anhorrig",
+    "clusters": [
+      {
+        "cluster_name": "ccp-1055-anhorrig-1",
+        "cluster_type": "vmware",
+        "k8s_version": "1.14.8",
+        "nodes": "3",
+        "vcpu": "2",
+        "memory": "16384",
+        "ssh_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG94bb+s1tKhuSM7gko6HkmbrpHcFiXwwhAJHM59SSgj anhorrig-ccpuser-key"
+      },
+      {
+        "cluster_name": "ccp-1055-anhorrig-2",
+        "cluster_type": "vmware",
+        "k8s_version": "1.14.8",
+        "nodes": "3",
+        "vcpu": "2",
+        "memory": "16384",
+        "ssh_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG94bb+s1tKhuSM7gko6HkmbrpHcFiXwwhAJHM59SSgj anhorrig-ccpuser-key"
+      }
+    ]
+  },
+  {
+    "username": "mchenetz",
+    "cluster_name": "ccp-1055-mchenetz-1",
+    "cluster_type": "vmware",
+    "k8s_version": "1.14.8",
+    "nodes": "5",
+    "vcpu": "2",
+    "memory": "16384",
+    "ssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDP5FwtFquObnl0ck+xZOiVnWmK/+IVAZ4G/IBQocJEhmV2elj+0U+G7tMrbQdK/WaaJVP1DEr8hjDcLKEECHj7tMlMFdb9ABVLKe+tRgbpQWvScZfAmOxnzHgjT/JV0xjcpV6ltxLRiqgJ3Nzx5yPErKzV89LAutgWMhtHEFhenpyRpF/N9OQ+LDGPLgCOCdq0Cn/O2Wby4TboZgk/h0Kvxg/mgy5D1ZIWt5KWGsWgzTZtB/U9MZAm2o4966oOPQErgp5jYTGsEw5BlLmY6Ibp86bGxemRIPiakKRY4Yxvt2+45W7husotD83pWtQ9eaSXDQAbg67pYtp82O/oeSaz anhorrig-ccpuser-key"
+  }
+]
