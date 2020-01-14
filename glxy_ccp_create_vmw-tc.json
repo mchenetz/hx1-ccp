@@ -19,9 +19,9 @@
     "node_groups": [
         {
             "name": "node-group",
-            "size": [[NODES]],
-            "vcpus": [[VCPU]],
-            "memory_mb": [[MEMORY]],
+            "size": "[[NODES]]",
+            "vcpus": "[[VCPU]]",
+            "memory_mb": "[[MEMORY]]",
             "gpus": [],
             "template": "hx1-ccp-tenant-image-[[K8S_VERSION]]-ubuntu18-5.1.0",
             "kubernetes_version": "[[K8S_VERSION]]",
