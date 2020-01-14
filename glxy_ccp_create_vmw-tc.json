@@ -48,5 +48,5 @@
     "ip_allocation_method": "ccpnet",
     "provider": "55101b70-5286-4a0a-bf2a-006cce629fbe",
     "name": "[[USERNAME]]_[[CLUSTER_NAME]]",
-    "type": "[[USERNAME]]_[[CLUSTER_TYPE]]"
+    "type": "[[CLUSTER_TYPE]]"
 }
