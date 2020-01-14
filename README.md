@@ -16,7 +16,7 @@ In order to create a tenant cluster in CPSG-Galaxy for development/testing, plea
   
 3. Commit your changes and perform a PULL REQUEST
 
-4.   Once the request is approved, your tenant cluster will be automatically created.  
+4. Once the request is approved, your tenant cluster will be automatically created and you will receive an email notifcation  
 
 ## Example JSON
 
