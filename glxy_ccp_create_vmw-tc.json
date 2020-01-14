@@ -1,0 +1,52 @@
+{
+    "network_plugin_profile": {
+        "name": "calico",
+        "details": {
+            "pod_cidr": "192.168.0.0/16"
+        }
+    },
+    "vsphere_infra": {
+        "datacenter": "GFFA-DC",
+        "datastore": "GFFA-HX1-Datastore-1",
+        "networks": [
+            "VLAN1055"
+        ],
+        "cluster": "GFFA-HX1-Cluster",
+        "resource_pool": ""
+    },
+    "load_balancer_num": 1,
+    "subnet_id": "123bbc05-90d9-4a56-9c4f-d5e5fbd8d0eb",
+    "node_groups": [
+        {
+            "name": "node-group",
+            "size": [[NODES]],
+            "vcpus": [[VCPU]],
+            "memory_mb": [[MEMORY]],
+            "gpus": [],
+            "template": "hx1-ccp-tenant-image-[[K8S_VERSION]]-ubuntu18-5.1.0",
+            "kubernetes_version": "[[K8S_VERSION]]",
+            "ssh_user": "[[USERNAME]]",
+            "ssh_key": "[[SSH_KEY]]"
+        }
+    ],
+    "master_group": {
+        "name": "master-group",
+        "size": 1,
+        "vcpus": 2,
+        "memory_mb": 16384,
+        "gpus": [],
+        "template": "hx1-ccp-tenant-image-[[K8S_VERSION]]-ubuntu18-5.1.0",
+        "kubernetes_version": "[[K8S_VERSION]]",
+        "ssh_user": "[[USERNAME]]",
+        "ssh_key": "[[SSH_KEY]]"
+    },
+    "kubernetes_version": "[[K8S_VERSION]]",
+    "insecure_registries": [],
+    "root_ca_registries": [],
+    "ntp_servers": [],
+    "ntp_pools": [],
+    "ip_allocation_method": "ccpnet",
+    "provider": "55101b70-5286-4a0a-bf2a-006cce629fbe",
+    "name": "[[CLUSTER_NAME]]",
+    "type": "[[CLUSTER_TYPE]]"
+}
