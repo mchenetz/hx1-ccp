@@ -1,8 +1,7 @@
 {"clusterfile":[
   {
-    "username": "anhorrig",
     "clusters": [
-      {
+      { "username": "anhorrig",
         "cluster_name": "ccp-1055-anhorrig-1",
         "cluster_type": "vmware",
         "k8s_version": "1.14.8",
@@ -11,7 +10,8 @@
         "memory": "16384",
         "ssh_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG94bb+s1tKhuSM7gko6HkmbrpHcFiXwwhAJHM59SSgj anhorrig-ccpuser-key"
       },
-      {
+      { 
+        "username": "anhorrig",
         "cluster_name": "ccp-1055-anhorrig-2",
         "cluster_type": "vmware",
         "k8s_version": "1.14.8",
@@ -23,9 +23,9 @@
     ]
   },
   {
-    "username": "mchenetz",
     "clusters": [
       {
+        "username": "mchenetz",
         "cluster_name": "ccp-1055-mchenetz-1",
         "cluster_type": "vmware",
         "k8s_version": "1.14.8",
