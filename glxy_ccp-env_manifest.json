@@ -20,10 +20,7 @@
         "memory": "16384",
         "ssh_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG94bb+s1tKhuSM7gko6HkmbrpHcFiXwwhAJHM59SSgj anhorrig-ccpuser-key"
       }
-    ]
-  },
-  {
-    "clusters": [
+    ,
       {
         "username": "mchenetz",
         "cluster_name": "ccp-1055-mchenetz-1",
