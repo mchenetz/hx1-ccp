@@ -4,7 +4,7 @@
     "clusters": [
       {
         "cluster_name": "ccp-1055-anhorrig-1",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
@@ -13,7 +13,7 @@
       },
       {
         "cluster_name": "ccp-1055-anhorrig-2",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
@@ -27,7 +27,7 @@
     "clusters": [
       {
         "cluster_name": "ccp-1055-mchenetz-1",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
