@@ -21,7 +21,7 @@
             "name": "node-group",
             "size": "[[NODES]]",
             "vcpus": "[[VCPU]]",
-            "memory_mb": "[[MEMORY]]",
+            "memory_mb": [[MEMORY]],
             "gpus": [],
             "template": "hx1-ccp-tenant-image-[[K8S_VERSION]]-ubuntu18-5.1.0",
             "kubernetes_version": "[[K8S_VERSION]]",
@@ -47,6 +47,6 @@
     "ntp_pools": [],
     "ip_allocation_method": "ccpnet",
     "provider": "55101b70-5286-4a0a-bf2a-006cce629fbe",
-    "name": "[[USERNAME]]_[[CLUSTER_NAME]]",
+    "name": "[[USERNAME]]-[[CLUSTER_NAME]]",
     "type": "[[CLUSTER_TYPE]]"
 }
