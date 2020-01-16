@@ -3,7 +3,7 @@
     "clusters": [
       { "username": "anhorrig",
         "cluster_name": "ccp-1055-anhorrig-1",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
@@ -13,7 +13,7 @@
       { 
         "username": "anhorrig",
         "cluster_name": "ccp-1055-anhorrig-2",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
@@ -24,7 +24,7 @@
       {
         "username": "mchenetz",
         "cluster_name": "ccp-1055-mchenetz-1",
-        "cluster_type": "vmware",
+        "cluster_type": "vsphere",
         "k8s_version": "1.14.8",
         "nodes": "3",
         "vcpu": "2",
